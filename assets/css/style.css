@@ -79,12 +79,13 @@ main article p, .pictureLP p{
     text-align: right;
 }
 .pictureLP img{
+    z-index: 999;
     height: 50vh;
+    transition: transform .3s ease-in-out;
+    cursor: pointer;
 }
 .pictureLP img:hover{
-    z-index: 999;
     transform:scale(1.5);
-    transition: transform .3s;
 }
 /* --- footer --- */
 footer{
