@@ -79,7 +79,7 @@ main article p, .pictureLP p{
     text-align: right;
 }
 .pictureLP img{
-    width: 35vw;
+    height: 50vh;
 }
 .pictureLP img:hover{
     z-index: 999;
