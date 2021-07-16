@@ -98,6 +98,9 @@ footer section{
 footer section p{
     display: inline-block;
 }
+footer section ul li{
+    list-style: none;
+}
 footer section ul li a{
     color:#eee
 }
