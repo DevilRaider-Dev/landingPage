@@ -54,6 +54,7 @@ main{
     background: url(../img/pawel-czerwinski-6lQDFGOB1iw-unsplash.jpg) center no-repeat;
 }
 main article{
+    color: #FCEB54;
     width: 40%;
     margin: 0 0 0 auto;
     padding: 10%;
