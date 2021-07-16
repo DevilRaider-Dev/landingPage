@@ -54,7 +54,6 @@ main{
     background: url(../img/pawel-czerwinski-6lQDFGOB1iw-unsplash.jpg) center no-repeat;
 }
 main article{
-    color: #FCEB54;
     width: 40%;
     margin: 0 0 0 auto;
     padding: 10%;
@@ -63,6 +62,10 @@ main article{
 main article h2{
     font-size: 2em;
     margin-bottom: 3% ;
+    color: #FCEB54;
+}
+main article p{
+    color: #FCEB54;
 }
 main article p, .pictureLP p{
     font-size: 1.4em;
