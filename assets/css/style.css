@@ -86,7 +86,7 @@ main article p, .pictureLP p{
 }
 /* --- footer --- */
 footer{
-    background: url(../img/pawel-czerwinski-W_mfoOi1Elc-unsplash.jpg);
+    background: url(../img/pawel-czerwinski-W_mfoOi1Elc-unsplash.jpg) center/cover no-repeat;
     height: 50vh;
 }
 footer section{
