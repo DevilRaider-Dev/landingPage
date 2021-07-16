@@ -55,14 +55,16 @@ main{
 }
 main article{
     width: 40%;
+    margin: 0 0 0 auto;
     padding: 10%;
+    font-weight: 600;
 }
 main article h2{
-    font-size: 1.7em;
+    font-size: 2em;
     margin-bottom: 3% ;
 }
 main article p, .pictureLP p{
-    font-size: 1.3em;
+    font-size: 1.4em;
 }
 .pictureLP a{
     display: block;
@@ -73,7 +75,7 @@ main article p, .pictureLP p{
     padding: 5% 10%;
     position: relative;
 }
-.pictureLP:nth-of-type(odd){
+.pictureLP:nth-of-type(even){
     text-align: right;
 }
 .pictureLP img{
