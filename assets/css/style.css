@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Yomogi&display=swap');
+/* --- default --- */
+*{
+    margin: 0;
+}
+body{
+    font-family: 'Yomogi', cursive;
+}
+h1,h2,p{
+    color:#eee;
+}
+a{
+    text-decoration: none;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 2em;
+}
+/* --- header --- */
+header{
+    height: 100vh;
+    background: url(../img/rhondak-native-florida-folk-artist-_Yc7OtfFn-0-unsplash.jpg) center/cover no-repeat;
+}
+header nav{
+    background-color: rgba(0,0,0,.65);
+    position: sticky;
+    top: 0;
+    text-align: center;
+    width: 70%;
+    margin: 0 auto;
+    border-bottom-left-radius: 35px;
+    border-bottom-right-radius: 35px;
+}
+header nav ul li{
+    display: inline-block;
+    list-style: none;
+    padding: 1em 3em;
+}
+header nav ul li a{
+    color: #ccc;
+}
+header h1{
+    text-align: center;
+    margin: 15%;
+}
+header h1 span{
+    font-size: 1.5em;
+}
+header h2, footer a{
+    display: inline;
+    color: #FCEB54;
+    margin-left: 10%;
+}
+/* --- main --- */
+main{
+    background: url(../img/pawel-czerwinski-6lQDFGOB1iw-unsplash.jpg) center no-repeat;
+}
+main article{
+    width: 40%;
+    padding: 10%;
+}
+main article h2{
+    font-size: 1.7em;
+    margin-bottom: 3% ;
+}
+main article p, .pictureLP p{
+    font-size: 1.3em;
+}
+.pictureLP a{
+    display: block;
+    font-size: .7em;
+    color: #FCEB54;
+}
+.pictureLP{
+    padding: 5% 10%;
+    position: relative;
+}
+.pictureLP:nth-of-type(odd){
+    text-align: right;
+}
+.pictureLP img{
+    width: 35vw;
+}
+.pictureLP img:hover{
+    z-index: 999;
+    transform:scale(1.5);
+    transition: transform .3s;
+}
+/* --- footer --- */
+footer{
+    background: url(../img/pawel-czerwinski-W_mfoOi1Elc-unsplash.jpg);
+    height: 50vh;
+}
